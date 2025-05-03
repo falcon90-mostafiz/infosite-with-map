@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-light" href="#">Whale</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active  text-light" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="faq.html">Faq</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><br><br>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .faq {
+      margin: 20px 0;
+    }
+
+    .question {
+      font-weight: bold;
+      background-color: #eaeaea;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .answer {
+      display: none;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">What is your return policy?</div>
+    <div class="answer">We offer a 30-day return policy on all items.</div>
+  </div>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">how do i know if your product good or bad?</div>
+    <div class="answer">we provide all details in our site you can check reviews</div>
+  </div>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">in recieving time if your product is bad then what will do?</div>
+    <div class="answer">no problem, we will provide exchange. </div>
+  </div>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">can i cancel my orderr?</div>
+    <div class="answer">no,once placed you cannot cancel order anymore.</div>
+
+    <div class="faq">
+        <div class="question" onclick="toggleAnswer(this)">how much time needed to reach me the product?</div>
+        <div class="answer">you will get under 2-3 days</div>
+      </div>
+  </div>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">Do you offer international shipping?</div>
+    <div class="answer">Yes, we ship worldwide with standard and express options.</div>
+  </div>
+
+  <div class="faq">
+    <div class="question" onclick="toggleAnswer(this)">How can I track my order?</div>
+    <div class="answer">Once your order is shipped, we will send you a tracking link via email.</div>
+  </div>
+</div>
+<div class="col">
+    <img src="images/faq.jpg" alt="">
+</div>
+</div>
+</div>
+  <script>
+    function toggleAnswer(questionElement) {
+      const answer = questionElement.nextElementSibling;
+      answer.style.display = (answer.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
+</body>
+</html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
